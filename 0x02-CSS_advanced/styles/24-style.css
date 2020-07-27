@@ -102,11 +102,14 @@ ul.row {
     width: 50%;
 }
 
+
+/* Select all classes that start with col- */
 [class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
 
+/* Style the data-section-theme=“dark” */
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
@@ -162,20 +165,24 @@ right and left are 1rem */
     display: block;
 }
 
+/* Style the social-link class that also selects the svg children */
 .social-link > svg {
     fill: var(--text-color);
 }
 
+/* Target card-title that is inside card-services */
 .card-services .card-title {
     margin: 0;    
 }
 
+/* Target 'a' that is inside card-services */
 .card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
+/* Target the hover state of a that is inside card-services */
 .card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
