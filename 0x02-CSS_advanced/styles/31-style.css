@@ -271,7 +271,7 @@ right and left are 1rem */
     position: relative;
 }
 
-.card-testimonial::before .card-quote {
+.card-testimonial .card-quote::before {
     content: "\201C";
     position: absolute;
     top: -4.5rem;
