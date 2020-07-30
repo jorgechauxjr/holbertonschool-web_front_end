@@ -3,13 +3,14 @@
 /* You must use a mixin */ 
 
 /* Mixin is like declaring a function in other languages */
-/* @mixin and the name of it */
+/* Use @mixin and give a name to it */
 /* as parameters receive a variable ($), in this case is called property */
 @mixin my-margin-mixin ($property) {
     margin-left: $property;
     margin-right: $property;
 }
 
+/* To invoke a mixin use @include and the name of the mixin to invoke */
 body {
     @include my-margin-mixin(10px);
 }
