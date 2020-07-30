@@ -1,6 +1,8 @@
 /*  Sass file that assigns: Font size 20px to h1 tags
 * Font size 14px to h1 tags, when your screen width is smaller than 320px */
 
+/* The @media rule is used in media queries to apply
+* different styles for different media types/devices. */
 h1 {
     font-size: 20px;
     @media screen and (max-width: 320px){
