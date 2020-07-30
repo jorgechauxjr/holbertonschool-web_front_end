@@ -1,0 +1,16 @@
+/* Sass file that creates a class for each name in the list $list-names 
+* and assigns the background image based on the name (example below): 
+* You must use @import
+* You must use @each statement*/
+
+@import '11-photos.scss';
+
+/* Similar as in python: 
+* for names in lis-names: */
+/* In this case the variable $var-names take each value
+* of every name in the list-names that is in the file 11-photos.scss*/
+@each $var-names in $list-names {
+    .photo-#{$var-names} {
+        background-color: image-url("photos/#{$var-names}.jpg") no-repeat;
+    }
+}
