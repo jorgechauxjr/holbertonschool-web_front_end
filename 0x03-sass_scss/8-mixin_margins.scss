@@ -1,0 +1,19 @@
+/* Sass file that assigns: Margin left and right at 10px to body tags */
+/* Margin left and right at 15px to div tags */ 
+/* You must use a mixin */ 
+
+/* Mixin is like declaring a function in other languages */
+/* @mixin and the name of it */
+/* as parameters receive a variable ($), in this case is called property */
+@mixin my-margin-mixin ($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+body {
+    @include my-margin-mixin(10px);
+}
+
+div {
+    @include my-margin-mixin(15px);
+}
