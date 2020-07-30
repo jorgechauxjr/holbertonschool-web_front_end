@@ -3,9 +3,6 @@
 * You must create H* tags from 1 to 5
 * You must use @for statement*/
 
-/* $i is a variable that goes from 1 to 5
-* Other way can be:
-* font-size: $i + px; */
 @for $i from 1 through 5 {
     h#{$i} {
       font-size: #{$i}px;
