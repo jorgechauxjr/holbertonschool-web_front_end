@@ -37,6 +37,11 @@ a:hover {
 	color: white;
 }
 
+/* ?? */
+.card-header:first-child {
+    border-radius: calc(1rem - 1.5px) calc(1rem - 1.5px) 0 0;
+}
+
 .text-muted {
     color: #8C8C8C;
 }
