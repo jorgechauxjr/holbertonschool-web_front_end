@@ -11,3 +11,13 @@
     background-color: #BC1340;
     border-color: #E0003C;
 }
+
+.btn-outline-primary {
+    border-color: #E0003C;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #E0003C;
+}
