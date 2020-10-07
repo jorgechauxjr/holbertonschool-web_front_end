@@ -9,6 +9,7 @@
         function setCookies() {
 
             var d = new Date();
+            // 10 days * 24 hours (per day) * 60 minutes (per hour) * 60 seconds (per minute) * 1000)
             d.setTime(d.getTime() + (10*24*60*60*1000));
             var expires = "expires="+ d.toUTCString();
             // console.log("VENCIMIENTO: " + expires);
